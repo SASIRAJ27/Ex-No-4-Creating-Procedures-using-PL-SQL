@@ -21,7 +21,7 @@ SQL> CREATE TABLE ep(
 CREATE OR REPLACE PROCEDURE emp_data AS
     BEGIN
     INSERT INTO ep(empid,empname,dept,salary)
-    values(1,'ABISHEK','MD',10000000);
+    values(1,'SASIRAJ','MD',10000000);
     INSERT INTO ep(empid,empname,dept,salary)
     values(2,'DEVA','HR',500000);
     INSERT INTO ep(empid,empname,dept,salary)
